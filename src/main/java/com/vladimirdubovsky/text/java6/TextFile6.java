@@ -14,11 +14,16 @@ public class TextFile6 {
 
     private static List<String> readList6(String fileName) {
         List<String> result = new ArrayList<>();
-        try (FileReader fr = new FileReader(fileName);
-             BufferedReader br = new BufferedReader(fr)) { // Buffered reader 8192 symbols
-            String line;
-            while ((line = br.readLine()) != null) {
-                result.add(line);
+        try { // Buffered reader 8192 symbols
+            FileReader fr = new FileReader(fileName);
+            BufferedReader br = new BufferedReader(fr);
+            try {
+                String line;
+                while ((line = br.readLine()) != null) {
+                    result.add(line);
+                }
+            } finally {
+                br.close();
             }
         } catch (IOException e) {
             e.printStackTrace();
