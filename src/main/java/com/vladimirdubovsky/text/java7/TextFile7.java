@@ -14,6 +14,9 @@ public class TextFile7 {
         final String fileName = "src/main/java/text.txt";
         List<String> list = readList7(fileName);
         List<String> fileList = readListFiles(fileName);
+
+        list.forEach(System.out::println);
+        fileList.forEach(System.out::println);
     }
 
     private static List<String> readList7(String fileName) {
