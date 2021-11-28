@@ -1,10 +1,11 @@
-package collections;
+package com.vladimirdubovsky.collections;
 
 import java.util.*;
 
 public class CollectionsDemo {
 
     public static void main(String[] args) {
+        System.out.println(Iterable.class);
         System.out.println(Collection.class);
 
         System.out.println(List.class);
