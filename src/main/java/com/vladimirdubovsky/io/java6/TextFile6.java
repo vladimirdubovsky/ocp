@@ -1,4 +1,4 @@
-package com.vladimirdubovsky.text.java6;
+package com.vladimirdubovsky.io.java6;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

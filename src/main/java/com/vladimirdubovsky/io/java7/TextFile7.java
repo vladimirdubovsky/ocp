@@ -1,4 +1,4 @@
-package com.vladimirdubovsky.text.java7;
+package com.vladimirdubovsky.io.java7;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

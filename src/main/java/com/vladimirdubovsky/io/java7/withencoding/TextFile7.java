@@ -1,4 +1,4 @@
-package com.vladimirdubovsky.text.withencoding;
+package com.vladimirdubovsky.io.java7.withencoding;
 
 import java.io.*;
 import java.nio.charset.Charset;
